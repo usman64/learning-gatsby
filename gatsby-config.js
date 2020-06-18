@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Bootcamp",
+    title: "MY GASTBY BLOG",
   },
   plugins: [
     "gatsby-plugin-sass",
@@ -12,6 +12,7 @@ module.exports = {
       },
     },
     "gatsby-plugin-sharp",
+    "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-transformer-remark",
       options: {
